@@ -61,7 +61,7 @@ export default function Projects() {
             </div>
             <div className='row'>
                 <div className="col-md-4">
-                    <a href="https://github.com/kjkrishnakj/Newzter.git" target="_blank" rel="noreferrer">
+                    <a href="https://newzter.vercel.app/" target="_blank" rel="noreferrer">
 
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
                         <img src={newzter_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
@@ -73,7 +73,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="col-md-4">
-                    <a href="https://github.com/kjkrishnakj/notebook.git" target="_blank" rel="noreferrer">
+                    <a href="https://notebook-amber.vercel.app/login" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
                         <img src={notebook_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                         <div class="overlay">
