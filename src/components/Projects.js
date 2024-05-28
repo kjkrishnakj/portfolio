@@ -6,9 +6,10 @@ import text_proof from "../photos/text_proof.png"
 import mm_proof from "../photos/mm_proof.png"
 import bmi_proof from "../photos/bmi_proof.png"
 import cv_proof from "../photos/cv_proof.png"
+import amikart_proof from "../photos/amikart_proof.jpg"
 // import tinddog_proof from "../photos/tinddog_proof.png"
 import wm_proof from "../photos/wm_proof.png"
-import valo_proof from "../photos/valo_proof.png"
+// import valo_proof from "../photos/valo_proof.png"
 // import drum_proof from "../photos/drum_proof.png"
 // import card_bg from "../photos/card_bg.jpg"
 
@@ -23,14 +24,15 @@ export default function Projects() {
 
             <div className='row mt-5'>
                 <div className="col-md-4">
-                    <a href="murder-mystery-tawny.vercel.app" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/kjkrishnakj/amikart.git" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={mm_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
-                        <div class="overlay">
-                            <div class="text">Murder Mystrey</div>
-                        </div>
+                            <img src={amikart_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                            <div class="overlay">
+                                <div class="text">Amikart</div>
+                            </div>
 
-                    </div>
+                        </div>
+                    
                     </a>
                 </div>
                 <div className="col-md-4">
@@ -96,15 +98,15 @@ export default function Projects() {
             </div>
             <div className='row'>
                 <div className="col-md-4">
-                    <a href="https://kjkrishnakj.github.io/valorant/" target="_blank" rel="noreferrer">
-
-                        <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                            <img src={valo_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
-                            <div class="overlay">
-                                <div class="text">Valorant UI   </div>
-                            </div>
-
+                    <a href="https://murder-mystery-tawny.vercel.app/" target="_blank" rel="noreferrer">
+                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
+                        <img src={mm_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                        <div class="overlay">
+                            <div class="text">Murder Mystrey</div>
                         </div>
+
+                    </div>
+                        
                     </a>
                 </div>
                 <div className="col-md-4">
