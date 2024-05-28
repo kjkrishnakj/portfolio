@@ -43,7 +43,7 @@ function Skills() {
                 </div>
                 <div className="col-md-4">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={cpp_thumb} className="card-img-top shine2" alt="..." />
+                        <img src={cpp_thumb} style={{ height: "12rem" }} className="card-img-top shine2" alt="..." />
 
                     </div>
 
