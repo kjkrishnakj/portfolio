@@ -14,12 +14,13 @@ function Resume() {
 
 
                 <div className="col d-flex justify-content-center">
-                    <a href="https://drive.google.com/file/d/1IyaQZEsWScCcgQdieWmmGggEwE1FkMZk/view?usp=sharing" target="_blank" rel="noreferrer">
-                        <div className="card" style={{ width: "18rem" }}>
-                            <img src={resume} className="card-img-top" style={{ height: "24rem", objectFit: "cover" }} alt="Resume" />
-                        </div>
-                    </a>
-                </div>
+    <a href="https://drive.google.com/file/d/1IyaQZEsWScCcgQdieWmmGggEwE1FkMZk/view?usp=sharing" target="_blank" rel="noreferrer">
+        <div className="card position-relative" style={{ width: "18rem", boxShadow: "0 0 20px rgba(71, 175, 165, 0.8)" }}>
+            <img src={resume} className="card-img-top" style={{ height: "24rem", objectFit: "cover", borderRadius: "10px" }} alt="Resume" />
+        </div>
+    </a>
+</div>
+
 
             </div>
         </>
