@@ -2,6 +2,23 @@ import React from 'react'
 import resume from "../photos/resume.png";
 
 function Resume() {
+    const cardStyle = {
+        width: '18rem',
+        boxShadow: '0 0 20px rgba(71, 175, 165, 0.8)',
+        transition: 'transform 0.3s ease',
+        borderRadius: '10px',
+    };
+
+    const imgStyle = {
+        height: '24rem',
+        objectFit: 'cover',
+        borderRadius: '10px',
+        transition: 'transform 0.3s ease',
+    };
+
+    const cardHoverStyle = {
+        transform: 'scale(1.05)',
+    };
     return (
         <>
             <div className='container'>
@@ -14,12 +31,21 @@ function Resume() {
 
 
                 <div className="col d-flex justify-content-center">
-    <a href="https://drive.google.com/file/d/1IyaQZEsWScCcgQdieWmmGggEwE1FkMZk/view?usp=sharing" target="_blank" rel="noreferrer">
-        <div className="card position-relative" style={{ width: "18rem", boxShadow: "0 0 20px rgba(71, 175, 165, 0.8)" }}>
-            <img src={resume} className="card-img-top" style={{ height: "24rem", objectFit: "cover", borderRadius: "10px" }} alt="Resume" />
+            <a href="https://drive.google.com/file/d/1IyaQZEsWScCcgQdieWmmGggEwE1FkMZk/view?usp=sharing" target="_blank" rel="noreferrer">
+                <div
+                    className="card position-relative"
+                    style={cardStyle}
+                    onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = cardHoverStyle.transform;
+                    }}
+                    onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'scale(1)';
+                    }}
+                >
+                    <img src={resume} className="card-img-top" style={imgStyle} alt="Resume" />
+                </div>
+            </a>
         </div>
-    </a>
-</div>
 
 
             </div>
