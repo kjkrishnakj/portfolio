@@ -14,6 +14,7 @@ import js_thumb2 from "../photos/js_thumb2.png"
 import react_thumb from "../photos/react_thumb.png"
 import jquery_thumb from "../photos/jquery_thumb.jpg"
 import nextjs_thumbnail from "../photos/nextjs_thumbnail.png"
+import docker_thumbnail from "../photos/docker_icon.png"
 
 
 function Skills() {
@@ -84,7 +85,7 @@ function Skills() {
                 </div>
                 <div className="col-md-4">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={bootsrap_sthumb} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
+                        <img src={docker_thumbnail} style={{ height: "12rem;", padding:"1rem" }} className="card-img-top object-fit shine2 " alt="..." />
 
                     </div>
 
