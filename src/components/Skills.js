@@ -66,7 +66,7 @@ function Skills() {
                 </div>
                 <div className="col-md-4">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={nodejs_thumb} style={{ height: "12rem" }} className="card-img-top shine2 hover-zoom " alt="..." />
+                        <img src={nodejs_thumb} style={{ height: "12rem" }} className="card-img-top shine2   " alt="..." />
 
                     </div>
 
@@ -82,7 +82,7 @@ function Skills() {
                 </div>
                 <div className="col-md-4">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={docker_thumbnail} style={{ height: "12rem;", padding:"1rem" }} className="card-img-top object-fit shine2 " alt="..." />
+                        <img src={docker_thumbnail} style={{ height: "12rem"   }} className="card-img-top   " alt="..." />
 
                     </div>
 
