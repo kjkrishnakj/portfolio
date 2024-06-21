@@ -9,7 +9,8 @@ import nodejs_thumb from "../photos/nodejs_thumb.png"
 import opencv_thumb from "../photos/opencv_thumb.jpeg"
 import js_thumb from "../photos/js_thumb.png"
 import react_thumb from "../photos/react_thumb.png"
-import jquery_thumb from "../photos/jquery_thumb.jpg"
+// import jquery_thumb from "../photos/jquery_thumb.jpg"
+import angular_thumb from "../photos/angular_thumbnail.png"
 import nextjs_thumbnail from "../photos/nextjs_thumbnail.png"
 import docker_thumbnail from "../photos/docker_icon.png"
 
@@ -99,7 +100,7 @@ function Skills() {
                 <div className="col-md-4">
 
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={jquery_thumb} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
+                        <img src={angular_thumb} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
 
                     </div>
                 </div>

@@ -4,7 +4,8 @@ import newzter_proof from "../photos/newzter_proof.png"
 import notebook_proof from "../photos/notebook_proof.png"
 import text_proof from "../photos/text_proof.png"
 import mm_proof from "../photos/mm_proof.png"
-import bmi_proof from "../photos/bmi_proof.png"
+import tooooodles_proof from "../photos/tooooodles_pic.png"
+// import bmi_proof from "../photos/bmi_proof.png"
 import cv_proof from "../photos/cv_proof.png"
 import amikart_proof from "../photos/amikart_proof.jpg"
 // import tinddog_proof from "../photos/tinddog_proof.png"
@@ -110,11 +111,11 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="col-md-4">
-                    <a href="https://kjkrishnakj.github.io/BMI/" target="_blank" rel="noreferrer">
+                    <a href="https://tooooodles.vercel.app/" target="_blank" rel="noreferrer">
                         <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                            <img src={bmi_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                            <img src={tooooodles_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                             <div class="overlay">
-                                <div class="text">BMI</div>
+                                <div class="text">Tooooodles</div>
                             </div>
 
                         </div>
