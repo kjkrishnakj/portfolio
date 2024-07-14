@@ -31,7 +31,7 @@ function Resume() {
 
 
                 <div className="col d-flex justify-content-center">
-            <a href="https://drive.google.com/file/d/1IyaQZEsWScCcgQdieWmmGggEwE1FkMZk/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a href={resume} target="_blank" rel="noreferrer">
                 <div
                     className="card position-relative"
                     style={cardStyle}
