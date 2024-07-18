@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import ff from "../photos/future_forward_ideathon.jpeg"
 import solve_thon from "../photos/solve_thon.png"
 import math_certificate from "../photos/math_certificate.png"
 import eco_urban from "../photos/eco_urban.png"
@@ -39,11 +39,11 @@ export default function Projects() {
 
                 </div>
                 <div className="col-md-4">
-                    <a href={{math_certificate}} target="_blank" rel="noreferrer">
+                    <a href={{ff}} target="_blank" rel="noreferrer">
                         <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                            <img src={math_certificate} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                            <img src={ff} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                             <div class="overlay">
-                                <div class="text">Mathematical Research</div>
+                                <div class="text">Future Forward Ideathon</div>
                             </div>
 
                         </div>
