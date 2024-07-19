@@ -1,6 +1,7 @@
 import React from 'react'
 
-import ff from "../photos/future_forward_ideathon.jpeg"
+import ff from "../photos/future forward ideathon.jpeg"
+
 import solve_thon from "../photos/solve_thon.png"
 import math_certificate from "../photos/math_certificate.png"
 import eco_urban from "../photos/eco_urban.png"
