@@ -28,7 +28,7 @@ export default function Projects() {
 
             <div className='row mt-5'>
                 <div className="col-md-4">
-                    <a href="https://amikart.vercel.app/" target="_blank" rel="noreferrer">
+                    <a href="https://ecommerce-eta-amber.vercel.app/" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;"  }}>
                             <img src={amikart_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                             <div class="overlay">
