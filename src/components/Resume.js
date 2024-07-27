@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../photos/resume.png";
+import resume from "../photos/image.png";
 
 function Resume() {
     const cardStyle = {
