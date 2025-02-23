@@ -5,6 +5,7 @@ import notebook_proof from "../photos/notebook_proof.png"
 import text_proof from "../photos/text_proof.png"
 import mm_proof from "../photos/mm_proof.png"
 import tooooodles_proof from "../photos/tooooodles_pic.png"
+import BookHive_thumbnail from "../photos/BookHive_thumbnail.png"
 // import bmi_proof from "../photos/bmi_proof.png"
 import cv_proof from "../photos/cv_proof.png"
 import amikart_proof from "../photos/amikart_proof.jpg"
@@ -37,11 +38,11 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="col-md-4">
-                    <a href="https://658fd24d541fd545e1004f2d--heroic-beignet-20354d.netlify.app/" target="_blank" rel="noreferrer">
+                    <a href="https://libathon.vercel.app/" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={wm_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                        <img src={BookHive_thumbnail} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                         <div class="overlay">
-                            <div class="text">GMS</div>
+                            <div class="text">BookHive</div>
                         </div>
                     </div>
                     </a>
