@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from 'react-multi-carousel';
 
 import htmlcss_thumb from "../photos/htmlcss_thumb.jpeg"
 import c_thumb from "../photos/c_thumb.png"
@@ -13,120 +14,63 @@ import react_thumb from "../photos/react_thumb.png"
 import angular_thumb from "../photos/angular_thumbnail.png"
 import nextjs_thumbnail from "../photos/nextjs_thumbnail.png"
 import docker_thumbnail from "../photos/docker_icon.png"
+import 'react-multi-carousel/lib/styles.css';
 
+const images = [
+    { src: python_thumb, alt: 'Python' },
+    { src: c_thumb, alt: 'C' },
+    { src: cpp_thumb, alt: 'C++' },
+    { src: java_thumb, alt: 'Java' },
+    { src: js_thumb, alt: 'JavaScript' },
+    { src: nodejs_thumb, alt: 'Node.js' },
+    { src: htmlcss_thumb, alt: 'HTML & CSS' },
+    { src: docker_thumbnail, alt: 'Docker' },
+    { src: react_thumb, alt: 'React' },
+    { src: angular_thumb, alt: 'Angular' },
+    { src: opencv_thumb, alt: 'OpenCV' },
+    { src: nextjs_thumbnail, alt: 'Next.js' },
+];
 
-function Skills() {
+const responsive = {
+    superLargeDesktop: {
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+    },
+};
+
+export default function Skills() {
     return (
-        <div className='container'>
-            <br />
+        <div className="container">
+  <br />
             <br />
             <hr />
-            <h1 className='my-3 shine'>Skill Set</h1>
+            <h1 className='my-4 shine'>Skills</h1>
             <hr />
 
-
-            <div className='row mt-5 '>
-                <div className="col-md-4">
-
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={python_thumb} style={{ height: "12rem" }} className="card-img-top" alt="..." />
-
+            <Carousel
+                responsive={responsive}
+                autoPlay={true}
+                autoPlaySpeed={1500}
+                infinite={true}
+            >
+                {images.map((image, index) => (
+                    <div key={index} className="card mx-3 my-2" style={{ width: "18rem" }}>
+                        <img src={image.src} style={{ height: "12rem" }} className="card-img-top" alt={image.alt} />
                     </div>
-                
-
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={c_thumb} style={{ height: "12rem" }} className="card-img-top shine2" alt="..." />
-
-                    </div>
-
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={cpp_thumb} style={{ height: "12rem" }} className="card-img-top shine2" alt="..." />
-
-                    </div>
-
-                </div>
-            </div>
-            <div className='row'>
-                <div className="col-md-4">
-
-                    <div className="card  mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={java_thumb} style={{ height: "12rem" }} className="card-img-top  " alt="..." />
-
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={js_thumb} style={{ height: "12rem" }} className="card-img-top  " alt="..." />
-
-                    </div>
-
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={nodejs_thumb} style={{ height: "12rem" }} className="card-img-top shine2   " alt="..." />
-
-                    </div>
-
-                </div>
-            </div>
-            <div className='row'>
-                <div className="col-md-4">
-
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={htmlcss_thumb} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
-
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={docker_thumbnail} style={{ height: "12rem"   }} className="card-img-top   " alt="..." />
-
-                    </div>
-
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={react_thumb} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
-
-                    </div>
-
-                </div>
-            </div>
-            <div className='row'>
-                <div className="col-md-4">
-
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={angular_thumb} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
-
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={opencv_thumb} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
-
-                    </div>
-
-                </div>
-                <div className="col-md-4">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={nextjs_thumbnail} style={{ height: "12rem" }} className="card-img-top shine2 " alt="..." />
-
-                    </div>
-
-                </div>
-            </div>
-
-
+                ))}
+            </Carousel>
         </div>
-
-
-
-
-    )
+    );
 }
-
-export default Skills

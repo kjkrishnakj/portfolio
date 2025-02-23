@@ -1,13 +1,16 @@
 import React from 'react'
 import chathub_proof from "../photos/chathub_proof.png"
 import newzter_proof from "../photos/newzter_proof.png"
-import notebook_proof from "../photos/notebook_proof.png"
-import text_proof from "../photos/text_proof.png"
+import blogophile_proof from "../photos/blogophile_proof.png"
+// import notebook_proof from "../photos/notebook_proof.png"
+// import text_proof from "../photos/text_proof.png"
+import qod_proof from "../photos/qod_proof.png"
+import knowledgehub_proof from "../photos/knowledgehub_proof.png"
 import mm_proof from "../photos/mm_proof.png"
 import tooooodles_proof from "../photos/tooooodles_pic.png"
 import BookHive_thumbnail from "../photos/BookHive_thumbnail.png"
 // import bmi_proof from "../photos/bmi_proof.png"
-import cv_proof from "../photos/cv_proof.png"
+// import cv_proof from "../photos/cv_proof.png"
 import amikart_proof from "../photos/amikart_proof.jpg"
 // import tinddog_proof from "../photos/tinddog_proof.png"
 import wm_proof from "../photos/wm_proof.png"
@@ -26,7 +29,7 @@ export default function Projects() {
 
             <div className='row mt-5'>
                 <div className="col-md-4">
-                    <a href="https://github.com/kjkrishnakj/amikart.git" target="_blank" rel="noreferrer">
+                    <a href="https://ecommerce-eta-amber.vercel.app/" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;"  }}>
                             <img src={amikart_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                             <div class="overlay">
@@ -75,11 +78,11 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="col-md-4">
-                    <a href="https://notebook-amber.vercel.app/login" target="_blank" rel="noreferrer">
+                    <a href="https://blogophile.vercel.app/" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={notebook_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                        <img src={blogophile_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                         <div class="overlay">
-                            <div class="text">Notebook</div>
+                            <div class="text">BlogoPhile</div>
                         </div>
 
                     </div>
@@ -87,11 +90,11 @@ export default function Projects() {
 
                 </div>
                 <div className="col-md-4">
-                    <a href="https://github.com/kjkrishnakj/Text_Manipiulator.git" target="_blank" rel="noreferrer">
+                    <a href="https://knowledgehub-kj.vercel.app/" target="_blank" rel="noreferrer">
                         <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                            <img src={text_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                            <img src={knowledgehub_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                             <div class="overlay">
-                                <div class="text">Text Manipulator</div>
+                                <div class="text">KnowledgeHub</div>
                             </div>
 
                         </div>
@@ -100,15 +103,16 @@ export default function Projects() {
             </div>
             <div className='row'>
                 <div className="col-md-4">
-                    <a href="https://murder-mystery-tawny.vercel.app/" target="_blank" rel="noreferrer">
-                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={mm_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
-                        <div class="overlay">
-                            <div class="text">Murder Mystrey</div>
-                        </div>
+                    
+                    <a href="https://qod.vercel.app/" target="_blank" rel="noreferrer">
+                        <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
 
-                    </div>
-                        
+                            <img src={qod_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                            <div class="overlay">
+                                <div class="text">QOD</div>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div className="col-md-4">
@@ -123,15 +127,15 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="col-md-4">
-                    <a href="https://kjkrishnakj.github.io/CV/" target="_blank" rel="noreferrer">
-                        <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-
-                            <img src={cv_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
-                            <div class="overlay">
-                                <div class="text">CV</div>
-                            </div>
-
+                <a href="https://murder-mystery-tawny.vercel.app/" target="_blank" rel="noreferrer">
+                    <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
+                        <img src={mm_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                        <div class="overlay">
+                            <div class="text">Murder Mystrey</div>
                         </div>
+
+                    </div>
+                        
                     </a>
 
 
