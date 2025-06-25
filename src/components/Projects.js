@@ -6,6 +6,7 @@ import blogophile_proof from "../photos/blogophile_proof.png"
 // import text_proof from "../photos/text_proof.png"
 import qod_proof from "../photos/qod_proof.png"
 import knowledgehub_proof from "../photos/knowledgehub_proof.png"
+import fitel_proof from "../photos/Screenshot (8).png"
 import mm_proof from "../photos/mm_proof.png"
 import tooooodles_proof from "../photos/tooooodles_pic.png"
 import BookHive_thumbnail from "../photos/BookHive_thumbnail.png"
@@ -52,14 +53,15 @@ export default function Projects() {
 
                 </div>
                 <div className="col-md-4">
-                    <a href="https://github.com/kjkrishnakj/ChatHub.git" target="_blank" rel="noreferrer">
+                    <a href="https://fintel-eight.vercel.app/dashboard" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={chathub_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                        <img src={fitel_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                         <div class="overlay">
-                            <div class="text">ChatHub</div>
+                            <div class="text">Murder Mystrey</div>
                         </div>
 
                     </div>
+                        
                     </a>
 
                 </div>
@@ -127,15 +129,14 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="col-md-4">
-                <a href="https://murder-mystery-tawny.vercel.app/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/kjkrishnakj/ChatHub.git" target="_blank" rel="noreferrer">
                     <div className="card mx-3 my-2" style={{ width: "18rem;" }}>
-                        <img src={mm_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
+                        <img src={chathub_proof} style={{ height: "12rem" }} className="card-img-top image" alt="..." />
                         <div class="overlay">
-                            <div class="text">Murder Mystrey</div>
+                            <div class="text">ChatHub</div>
                         </div>
 
                     </div>
-                        
                     </a>
 
 
